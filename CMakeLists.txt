@@ -135,6 +135,7 @@ add_custom_command(TARGET VividMeshShaderCompiler POST_BUILD
 install(TARGETS VividMeshShader VividMeshShaderCompiler
         RUNTIME DESTINATION .)
 install(FILES
+        "${CMAKE_SOURCE_DIR}/LICENSE"
         "${VMS_DXCOMPILER_DLL}"
         "${VMS_DXIL_DLL}"
         DESTINATION .)

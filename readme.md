@@ -269,6 +269,12 @@ PluginAPI/        Unity native plugin interface headers
 CMakeLists.txt    Build and install configuration
 ```
 
-Unity's native plugin interface headers retain their license in
-[`PluginAPI/LICENSE.md`](PluginAPI/LICENSE.md). DXC redistribution licenses are
-installed when their files are available under `VMS_DXC_ROOT`.
+## License
+
+This project is licensed under the [MIT License](LICENSE), copyright 2026
+af8a2a.
+
+Third-party components retain their own licenses. Unity's native plugin
+interface headers are covered by [`PluginAPI/LICENSE.md`](PluginAPI/LICENSE.md).
+DXC redistribution licenses are installed when their files are available under
+`VMS_DXC_ROOT`.
